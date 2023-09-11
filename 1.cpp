@@ -19,7 +19,7 @@ int main() {
     cout << "Введите процентную ставку (годовую): ";
     cin >> interest_rate;
 
-    cout << "Введите тип кредита (аннуитетный или дифференцированный): ";
+    cout << "Введите тип кредита (1-аннуитетный или 2-дифференцированный): ";
     cin >> loan_type;
 
     double monthly_payment, total_payment, overpayment;
